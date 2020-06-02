@@ -1,3 +1,7 @@
+html {
+  overflow: hidden;
+}
+
 .body {
   position: absolute;
   height: 100%;
@@ -10,7 +14,7 @@
 
 .body__header {
   height: 9%;
-  margin: 18px 20px;
+  padding: 17px 30px;
 }
 
 .header {
@@ -27,7 +31,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 270px;
+  width: 220px;
   min-width: 220px;
 }
 
@@ -111,7 +115,7 @@ button.button__sign-in:hover {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  padding-top: 78px;
+  padding-top: 110px;
   height: 83%;
 }
 
@@ -120,7 +124,7 @@ button.button__sign-in:hover {
 }
 
 .page__search-form {
-  margin: 25px 0px;
+  margin: 23px 0px;
 }
 
 .search-form__content {
@@ -131,9 +135,15 @@ button.button__sign-in:hover {
       -ms-flex-align: center;
           align-items: center;
   width: 584px;
-  padding: 6px 8px 2px 16px;
+  padding: 6px 8px 4px 16px;
   border-radius: 24px;
   border: 1px solid #dfe1e5;
+}
+
+.search-form__content:hover {
+  -webkit-box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+          box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
 }
 
 .search-form__img-search {
@@ -158,17 +168,23 @@ button.button__sign-in:hover {
 }
 
 .search-form__buttons {
-  margin: 29px 0px;
+  margin: 29px 12px 29px 0px;
 }
 
 .search-form__button {
+  height: 36px;
+  margin: 0px 4px;
   padding: 0 16px;
   line-height: 27px;
-  height: 36px;
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
   border-radius: 4px;
   color: #5F6368;
+}
+
+.search-form__button:focus {
+  border: 1px solid #4d90fe;
+  outline: none;
 }
 
 .search-form__button:active {
@@ -233,7 +249,7 @@ button.button__sign-in:hover {
 }
 
 .footer__country {
-  padding-left: 27px;
+  padding-left: 30px;
   border-bottom: 1px solid #e4e4e4;
 }
 
@@ -249,6 +265,7 @@ button.button__sign-in:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 0px 3px;
 }
 
 .footer__list {
