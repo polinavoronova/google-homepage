@@ -119,6 +119,10 @@ button.button__sign-in:hover {
   height: 83%;
 }
 
+.page__logo {
+  height: 96px;
+}
+
 .page-logo {
   margin-bottom: 25px;
 }
@@ -135,7 +139,7 @@ button.button__sign-in:hover {
       -ms-flex-align: center;
           align-items: center;
   width: 584px;
-  padding: 6px 8px 4px 16px;
+  padding: 0px 8px 0px 16px;
   border-radius: 24px;
   border: 1px solid #dfe1e5;
 }
@@ -152,6 +156,8 @@ button.button__sign-in:hover {
 }
 
 .img-search-svg {
+  width: 20px;
+  height: 20px;
   fill: #9AA0A6;
 }
 
@@ -160,9 +166,28 @@ button.button__sign-in:hover {
   height: 34px;
   margin: 0px 10px;
   border: none;
+  outline: none;
+}
+
+.search-form__input:focus {
+  outline-offset: -2px;
 }
 
 .search-form__microfone {
+  width: 40px;
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.microfone-icon {
   width: 24px;
   height: 24px;
 }
@@ -297,5 +322,71 @@ button.button__sign-in:hover {
 
 .footer-menu__link:hover {
   opacity: 1;
+}
+
+/* Google images */
+.header__list_short {
+  width: 114px;
+  min-width: 110px;
+}
+
+.page__logo-images {
+  position: relative;
+  left: 105px;
+  top: -20px;
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+}
+
+.page__search-form_small {
+  height: 44px;
+  width: 534px;
+  margin: 18px 0px;
+}
+
+.search-form__content_small {
+  width: 536px;
+  padding: 0;
+}
+
+.search-form__img-search_small {
+  margin-left: 14px;
+}
+
+.search-form__input_small {
+  width: 355px;
+  margin-right: 4px;
+}
+
+.search-form__photo {
+  display: block;
+  width: 40px;
+  height: 44px;
+  background-image: url(../images/google_photo.png);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+}
+
+.search-form__button-loupe-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 44px;
+  width: 44px;
+  padding-right: 13px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.button-loupe-icon-svg {
+  width: 24px;
+  height: 24px;
+  fill: #4285f4;
 }
 /*# sourceMappingURL=index.css.map */
