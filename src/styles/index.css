@@ -107,6 +107,10 @@ button.button__sign-in:hover {
   cursor: default;
 }
 
+button.button__sign-in:focus {
+  outline: none;
+}
+
 .body__main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -185,6 +189,10 @@ button.button__sign-in:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.search-form__microfone:hover {
+  cursor: pointer;
 }
 
 .microfone-icon {
